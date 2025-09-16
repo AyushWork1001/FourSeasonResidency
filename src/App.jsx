@@ -47,8 +47,8 @@ export default function App() {
       <Footer/>
       <WhatsAppButton/>
       <StickyFooter openModal={openModal} />
-            <EnquireNowModal isOpen={isModalOpen} onClose={closeModal} />
-
+      <EnquireNowModal isOpen={isModalOpen} onClose={closeModal} />
+  {/* test */}
       
     </div>
   );
