@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@plugin "daisyui";
+html, body {
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "Jeles";
+  src: url("/fonts/JelesRegular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@theme {
+  --font-jeles: "Jeles", sans-serif;
+}
+
